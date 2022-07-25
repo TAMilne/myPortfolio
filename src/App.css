@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+html {
+  background-image: url('./img/tech.jpg');
+  background-size:cover;
+}
+.App {
+  background-color: rgb(202, 149, 92);
+  padding-left: 50pt;
+  height: 100%;
+  margin-top: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  margin-left: 250pt;
+  display: inline-block;
+  border-style: solid;
+  min-width: 500pt;
+  margin-right: 250pt;
+  }
+
+  .menu {
+    display: inline-block;
+    background-color: rgb(90, 143, 123);
+    margin: 5px;
+    width: 200pt;
+    border-radius: 10pt;
+    height: 99%;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    bottom: 0;
+    text-align: center; 
+  }
+  
+  .list {
+    padding: 5pt;
+    list-style-type: none;
+    font-size: 16pt;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20%;
+  }
+  
+  li {
+    padding: 8pt;
+  }
+
+  .icon {
+    display: inline;
+    padding: 20px;
+  }
+
+  .selfie {
+width: 150px;
+border-radius: 100%;
+margin-top: 20%;
+border-style: solid;
+
+  }
+
+  .icon {
+    width: 50px;
+  }
