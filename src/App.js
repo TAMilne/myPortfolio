@@ -26,7 +26,7 @@ function App() {
           </ul>
         </div>
         <Routes className="body">
-          <Route exact path='/' element={< About />}></Route>
+          <Route default exact path='/' element={< About />}></Route>
           <Route exact path='/education' element={< Education />}></Route>
           <Route exact path='/experience' element={< Experience />}></Route>
           <Route exact path='/skills' element={< Skills />}></Route>
